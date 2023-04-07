@@ -9,11 +9,11 @@ public class Main {
             System.out.println();
         }
         System.out.println("task 2");
-        int x = 5;
-        int f = 1;
-        for (int i = 1; i <= x; i++) {
-            f = f * i;
+        int factorial = 5;
+        int result = 1;
+        for (int i = 1; i <= factorial; i++) {
+            result = result * i;
         }
-        System.out.println(f);
+        System.out.println(factorial + "! = " + result);
     }
 }
